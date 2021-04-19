@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7DB4BB262D4E8700F04F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4BA262D4E8700F04F3B /* AppDelegate.swift */; };
+		8E7DB4BD262D4E8700F04F3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4BC262D4E8700F04F3B /* SceneDelegate.swift */; };
+		8E7DB4BF262D4E8700F04F3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4BE262D4E8700F04F3B /* ViewController.swift */; };
+		8E7DB4C2262D4E8700F04F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4C0262D4E8700F04F3B /* Main.storyboard */; };
+		8E7DB4C4262D4E8A00F04F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4C3262D4E8A00F04F3B /* Assets.xcassets */; };
+		8E7DB4C7262D4E8A00F04F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4C5262D4E8A00F04F3B /* LaunchScreen.storyboard */; };
+		8E7DB4D2262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4D1262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaTests.swift */; };
+		8E7DB4DD262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4DC262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift */; };
+		8E7DB4EE262D4F6200F04F3B /* iOS14.5_beta_version.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */; };
+		8E7DB4EF262D4F6200F04F3B /* iOS14.3_version.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E7DB4CE262D4E8A00F04F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7DB4AF262D4E8700F04F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7DB4B6262D4E8700F04F3B;
+			remoteInfo = AVPlayerOniOS14.5Beta;
+		};
+		8E7DB4D9262D4E8A00F04F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7DB4AF262D4E8700F04F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7DB4B6262D4E8700F04F3B;
+			remoteInfo = AVPlayerOniOS14.5Beta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E7DB4B7262D4E8700F04F3B /* AVPlayerOniOS14.5Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerOniOS14.5Beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7DB4BA262D4E8700F04F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E7DB4BC262D4E8700F04F3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E7DB4BE262D4E8700F04F3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E7DB4C1262D4E8700F04F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7DB4C3262D4E8A00F04F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7DB4C6262D4E8A00F04F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E7DB4C8262D4E8A00F04F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7DB4CD262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerOniOS14.5BetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7DB4D1262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerOniOS14_5BetaTests.swift; sourceTree = "<group>"; };
+		8E7DB4D3262D4E8A00F04F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7DB4D8262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerOniOS14.5BetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7DB4DC262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerOniOS14_5BetaUITests.swift; sourceTree = "<group>"; };
+		8E7DB4DE262D4E8A00F04F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS14.5_beta_version.m4a; sourceTree = "<group>"; };
+		8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS14.3_version.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7DB4B4262D4E8700F04F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4CA262D4E8A00F04F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4D5262D4E8A00F04F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7DB4AE262D4E8700F04F3B = {
+			isa = PBXGroup;
+			children = (
+				8E7DB4B9262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */,
+				8E7DB4D0262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests */,
+				8E7DB4DB262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests */,
+				8E7DB4B8262D4E8700F04F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7DB4B8262D4E8700F04F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DB4B7262D4E8700F04F3B /* AVPlayerOniOS14.5Beta.app */,
+				8E7DB4CD262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests.xctest */,
+				8E7DB4D8262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7DB4B9262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DB4BA262D4E8700F04F3B /* AppDelegate.swift */,
+				8E7DB4BC262D4E8700F04F3B /* SceneDelegate.swift */,
+				8E7DB4BE262D4E8700F04F3B /* ViewController.swift */,
+				8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */,
+				8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */,
+				8E7DB4C0262D4E8700F04F3B /* Main.storyboard */,
+				8E7DB4C3262D4E8A00F04F3B /* Assets.xcassets */,
+				8E7DB4C5262D4E8A00F04F3B /* LaunchScreen.storyboard */,
+				8E7DB4C8262D4E8A00F04F3B /* Info.plist */,
+			);
+			path = AVPlayerOniOS14.5Beta;
+			sourceTree = "<group>";
+		};
+		8E7DB4D0262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DB4D1262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaTests.swift */,
+				8E7DB4D3262D4E8A00F04F3B /* Info.plist */,
+			);
+			path = AVPlayerOniOS14.5BetaTests;
+			sourceTree = "<group>";
+		};
+		8E7DB4DB262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DB4DC262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift */,
+				8E7DB4DE262D4E8A00F04F3B /* Info.plist */,
+			);
+			path = AVPlayerOniOS14.5BetaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7DB4B6262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7DB4E1262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5Beta" */;
+			buildPhases = (
+				8E7DB4B3262D4E8700F04F3B /* Sources */,
+				8E7DB4B4262D4E8700F04F3B /* Frameworks */,
+				8E7DB4B5262D4E8700F04F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayerOniOS14.5Beta;
+			productName = AVPlayerOniOS14.5Beta;
+			productReference = 8E7DB4B7262D4E8700F04F3B /* AVPlayerOniOS14.5Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E7DB4CC262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7DB4E4262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5BetaTests" */;
+			buildPhases = (
+				8E7DB4C9262D4E8A00F04F3B /* Sources */,
+				8E7DB4CA262D4E8A00F04F3B /* Frameworks */,
+				8E7DB4CB262D4E8A00F04F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7DB4CF262D4E8A00F04F3B /* PBXTargetDependency */,
+			);
+			name = AVPlayerOniOS14.5BetaTests;
+			productName = AVPlayerOniOS14.5BetaTests;
+			productReference = 8E7DB4CD262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E7DB4D7262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7DB4E7262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5BetaUITests" */;
+			buildPhases = (
+				8E7DB4D4262D4E8A00F04F3B /* Sources */,
+				8E7DB4D5262D4E8A00F04F3B /* Frameworks */,
+				8E7DB4D6262D4E8A00F04F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7DB4DA262D4E8A00F04F3B /* PBXTargetDependency */,
+			);
+			name = AVPlayerOniOS14.5BetaUITests;
+			productName = AVPlayerOniOS14.5BetaUITests;
+			productReference = 8E7DB4D8262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7DB4AF262D4E8700F04F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8E7DB4B6262D4E8700F04F3B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8E7DB4CC262D4E8A00F04F3B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8E7DB4B6262D4E8700F04F3B;
+					};
+					8E7DB4D7262D4E8A00F04F3B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8E7DB4B6262D4E8700F04F3B;
+					};
+				};
+			};
+			buildConfigurationList = 8E7DB4B2262D4E8700F04F3B /* Build configuration list for PBXProject "AVPlayerOniOS14.5Beta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7DB4AE262D4E8700F04F3B;
+			productRefGroup = 8E7DB4B8262D4E8700F04F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7DB4B6262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */,
+				8E7DB4CC262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaTests */,
+				8E7DB4D7262D4E8A00F04F3B /* AVPlayerOniOS14.5BetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7DB4B5262D4E8700F04F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DB4C7262D4E8A00F04F3B /* LaunchScreen.storyboard in Resources */,
+				8E7DB4EF262D4F6200F04F3B /* iOS14.3_version.m4a in Resources */,
+				8E7DB4C4262D4E8A00F04F3B /* Assets.xcassets in Resources */,
+				8E7DB4C2262D4E8700F04F3B /* Main.storyboard in Resources */,
+				8E7DB4EE262D4F6200F04F3B /* iOS14.5_beta_version.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4CB262D4E8A00F04F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4D6262D4E8A00F04F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7DB4B3262D4E8700F04F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DB4BF262D4E8700F04F3B /* ViewController.swift in Sources */,
+				8E7DB4BB262D4E8700F04F3B /* AppDelegate.swift in Sources */,
+				8E7DB4BD262D4E8700F04F3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4C9262D4E8A00F04F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DB4D2262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7DB4D4262D4E8A00F04F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DB4DD262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E7DB4CF262D4E8A00F04F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7DB4B6262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */;
+			targetProxy = 8E7DB4CE262D4E8A00F04F3B /* PBXContainerItemProxy */;
+		};
+		8E7DB4DA262D4E8A00F04F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7DB4B6262D4E8700F04F3B /* AVPlayerOniOS14.5Beta */;
+			targetProxy = 8E7DB4D9262D4E8A00F04F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E7DB4C0262D4E8700F04F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7DB4C1262D4E8700F04F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7DB4C5262D4E8A00F04F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7DB4C6262D4E8A00F04F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7DB4DF262D4E8A00F04F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7DB4E0262D4E8A00F04F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7DB4E2262D4E8A00F04F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5Beta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7DB4E3262D4E8A00F04F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5Beta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E7DB4E5262D4E8A00F04F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5BetaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerOniOS14.5Beta.app/AVPlayerOniOS14.5Beta";
+			};
+			name = Debug;
+		};
+		8E7DB4E6262D4E8A00F04F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5BetaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5BetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerOniOS14.5Beta.app/AVPlayerOniOS14.5Beta";
+			};
+			name = Release;
+		};
+		8E7DB4E8262D4E8A00F04F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5BetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVPlayerOniOS14.5Beta;
+			};
+			name = Debug;
+		};
+		8E7DB4E9262D4E8A00F04F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCK23NU99E;
+				INFOPLIST_FILE = AVPlayerOniOS14.5BetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liulihsuo.AVPlayerOniOS14-5BetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVPlayerOniOS14.5Beta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7DB4B2262D4E8700F04F3B /* Build configuration list for PBXProject "AVPlayerOniOS14.5Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7DB4DF262D4E8A00F04F3B /* Debug */,
+				8E7DB4E0262D4E8A00F04F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7DB4E1262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7DB4E2262D4E8A00F04F3B /* Debug */,
+				8E7DB4E3262D4E8A00F04F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7DB4E4262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5BetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7DB4E5262D4E8A00F04F3B /* Debug */,
+				8E7DB4E6262D4E8A00F04F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7DB4E7262D4E8A00F04F3B /* Build configuration list for PBXNativeTarget "AVPlayerOniOS14.5BetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7DB4E8262D4E8A00F04F3B /* Debug */,
+				8E7DB4E9262D4E8A00F04F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7DB4AF262D4E8700F04F3B /* Project object */;
+}
