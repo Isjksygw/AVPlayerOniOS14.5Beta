@@ -8,7 +8,7 @@
 import AudioToolbox
 import Foundation
 
-class AudioStreamRecorderRawLPCMAudioBufferToALACConverter {
+class AudioStreamRecorderRawLPCMAudioBufferToALACConverter:AudioStreamRecorderRawLPCMAudioBufferConverter {
   var inputAudioFormat: AudioStreamBasicDescription {
     return settings.inputAudioFormat
   }
@@ -137,16 +137,16 @@ class AudioStreamRecorderRawLPCMAudioBufferToALACConverter {
 
   func writePacketTableInfo(audioFileID: AudioFileID) -> OSStatus {
     var error = noErr
-
+    
     var dataSize: UInt32 = 0
     var isWritable: UInt32 = 0
-
+    
     error = AudioFileGetPropertyInfo(audioFileID, kAudioFilePropertyPacketTableInfo, &dataSize, &isWritable)
     if error != noErr {
       self.error = error
       return error
     }
-
+    
     if isWritable > 0 {
       var primeInfo: AudioConverterPrimeInfo?
       var primeInfoSize = UInt32(MemoryLayout<AudioConverterPrimeInfo>.size)
@@ -155,7 +155,7 @@ class AudioStreamRecorderRawLPCMAudioBufferToALACConverter {
         self.error = error
         return error
       }
-
+      
       var packetTableInfo: AudioFilePacketTableInfo?
       var packetTableInfoSize = UInt32(MemoryLayout<AudioFilePacketTableInfo>.size)
       error = AudioFileGetProperty(audioFileID, kAudioFilePropertyPacketTableInfo, &packetTableInfoSize, &packetTableInfo)
@@ -163,17 +163,15 @@ class AudioStreamRecorderRawLPCMAudioBufferToALACConverter {
         self.error = error
         return error
       }
-
-      packetTableInfo?.mNumberValidFrames = Int64(settings.sourceBufferSize! / (settings.inputAudioFormat.mBitsPerChannel >> 3) * settings.inputAudioFormat.mChannelsPerFrame)
-
+      
       if packetTableInfo != nil, primeInfo != nil {
         packetTableInfo!.mPrimingFrames = Int32(primeInfo!.leadingFrames)
         packetTableInfo!.mRemainderFrames = Int32(primeInfo!.trailingFrames)
-      }
-      error = AudioFileSetProperty(audioFileID, kAudioFilePropertyPacketTableInfo, packetTableInfoSize, &packetTableInfo)
-      if error != noErr {
-        self.error = error
-        return error
+        error = AudioFileSetProperty(audioFileID, kAudioFilePropertyPacketTableInfo, packetTableInfoSize, &packetTableInfo)
+        if error != noErr {
+          self.error = error
+          return error
+        }
       }
     }
     return noErr
@@ -243,7 +241,7 @@ class AudioStreamRecorderRawLPCMAudioBufferToALACConverter {
 //      throw getError(code: Int(error), description: "AudioConverterGetProperty")
 //    }
     self.error = error
-    return 3
+    return settings.outputBufferSize / sizePerPacket
   }
 }
 
