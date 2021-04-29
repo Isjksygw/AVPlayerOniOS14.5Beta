@@ -17,6 +17,7 @@
 		8E7DB4DD262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB4DC262D4E8A00F04F3B /* AVPlayerOniOS14_5BetaUITests.swift */; };
 		8E7DB4EE262D4F6200F04F3B /* iOS14.5_beta_version.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */; };
 		8E7DB4EF262D4F6200F04F3B /* iOS14.3_version.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */; };
+		8E98D9C3263AEC7D00858573 /* AlacConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98D9C2263AEC7D00858573 /* AlacConvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8E7DB4DE262D4E8A00F04F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS14.5_beta_version.m4a; sourceTree = "<group>"; };
 		8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS14.3_version.m4a; sourceTree = "<group>"; };
+		8E98D9C2263AEC7D00858573 /* AlacConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlacConvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				8E7DB4BE262D4E8700F04F3B /* ViewController.swift */,
 				8E7DB4ED262D4F6200F04F3B /* iOS14.3_version.m4a */,
 				8E7DB4EC262D4F6200F04F3B /* iOS14.5_beta_version.m4a */,
+				8E98D9C2263AEC7D00858573 /* AlacConvert.swift */,
 				8E7DB4C0262D4E8700F04F3B /* Main.storyboard */,
 				8E7DB4C3262D4E8A00F04F3B /* Assets.xcassets */,
 				8E7DB4C5262D4E8A00F04F3B /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			files = (
 				8E7DB4BF262D4E8700F04F3B /* ViewController.swift in Sources */,
 				8E7DB4BB262D4E8700F04F3B /* AppDelegate.swift in Sources */,
+				8E98D9C3263AEC7D00858573 /* AlacConvert.swift in Sources */,
 				8E7DB4BD262D4E8700F04F3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
